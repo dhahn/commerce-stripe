@@ -23,9 +23,15 @@
     "docs": "https://github.com/craftcms/commerce-stripe",
     "rss": "https://github.com/craftcms/commerce-stripe/commits/master.atom"
   },
+  "repositories": [
+    {
+      "type": "git", 
+      "url": "git@github.com:dhahn/commerce.git"
+    }
+  ],
   "require": {
     "craftcms/cms": "^3.0.0",
-    "craftcms/commerce": "^2.0.0-beta.5",
+    "craftcms/commerce": "dev-develop",
     "stripe/stripe-php": "^6.1"
   },
   "autoload": {
